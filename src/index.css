@@ -1,22 +1,61 @@
 body {
-  margin: 10px;
+  margin: 4em;
+  margin-bottom: 0.5em;
+  font-family: monospace;
+  background-color: #a5a5aa;
+}
+a {
+  font-size: 20px;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background: #6b8ec6;
+  opacity: 0.3;
   padding: 10px;
-  font-family: serif;
-  background-image: url('http://wallpapercave.com/wp/CeAyDkX.jpg');
-  background-repeat: no-repeat;
+}
+h2 {
+  text-align: center;
+}
+.NavBar {
+  background-color: #3e4651;
+  height: 5em;
+  padding-top: 1em;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .form {
   text-align: center;
+  background-color: #3e4651;
+  height: 5.5em;
 }
 .main {
-  margin-left:;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: white;
+  padding: 1em;
+  /*border-radius: 1.5em;*/
+}
+.mainLower {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  /*border-radius: 1.5em;*/
+  padding: 1em;
+
+}
+h5 {
+  padding-left: 3em;
 }
 .day {
   display: flex;
   flex-direction: column;
+  border: 0.5px solid grey;
+  padding: 1em;
+  margin: 0.5em;
 }
 .hourByhour {
   display: flex;
@@ -25,10 +64,27 @@ body {
 ul {
   list-style: none;
 }
+li {
+  font-weight: bold;
+}
 .detailedForecast {
   display: flex;
   flex-direction: column;
 }
-.dateNtime {
-  font-weight: bold;
+.footer {
+  background-color: #3e4651;
+  height: 10em;
+  margin-top: 20em;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.liFooter {
+  color: white;
+  font-size: 18px;
+}
+.liFooter:hover {
+  text-decoration: underline;
 }
